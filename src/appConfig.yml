@@ -7,9 +7,11 @@ database:
     dbpassword: "enter_database_password_here"
 
 # Workers count
+# Override the below parameter's value in Environment Variables
 MaxWorkers: 5
 
 # MaxQueues count
+# Override the below parameter's value in Environment Variables
 MaxQueues: 7
 
 SensitiveVal:
