@@ -28,8 +28,8 @@ func main() {
 	fmt.Println("DB User is\t", viper.GetString("database.dbuser"))
 	fmt.Println("DB Password is\t", viper.GetString("database.dbpassword"))
 	fmt.Println("Port is\t\t", viper.GetInt("server.port"))
-	fmt.Println("Max Workers is\t", viper.GetInt("MaxWorkers"))
-	fmt.Println("Max Queues is\t", viper.GetInt("MaxQueues"))
+	fmt.Println("Max Workers is\t", viper.GetInt("maxworkers"))
+	fmt.Println("Max Queues is\t", viper.GetInt("maxqueues"))
 
 	// Set default values for one of the parameters
 	viper.SetDefault("database.hostname", "db_host_name")
