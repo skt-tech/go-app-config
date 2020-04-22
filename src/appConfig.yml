@@ -1,0 +1,15 @@
+server:
+    port: 8080
+
+database:
+    hostname: "enter_database_host_name_here"
+    dbuser: "enter_database_user_name_here"
+    dbpassword: "enter_database_password_here"
+
+# Workers count
+MaxWorkers: 5
+
+# MaxQueues count
+MaxQueues: 7
+
+SensitiveVal:
